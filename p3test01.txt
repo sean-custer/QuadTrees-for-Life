@@ -1,0 +1,67 @@
+Starting configuration--default board:
+============================================================
+START Dump of quadtree: true bounds = {botLeft=(0, 0), dim=16}
+------------------------------------------------------------
+[QTQuad bounds={botLeft=(0, 0), dim=16} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+------------------------------------------------------------
+END Dump of quadtree
+============================================================
+Modified configuration--default board:
+============================================================
+START Dump of quadtree: true bounds = {botLeft=(0, 0), dim=16}
+------------------------------------------------------------
+[QTQuad bounds={botLeft=(0, 0), dim=16} is INTERNAL:
+Bottom-Left child:
+[QTQuad bounds={botLeft=(0, 0), dim=8} is INTERNAL:
+Bottom-Left child:
+[QTQuad bounds={botLeft=(0, 0), dim=4} is GRID LEAF:
+[0000]
+[0000]
+[0000]
+[1000]
+]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[QTQuad bounds={botLeft=(8, 8), dim=8} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[QTQuad bounds={botLeft=(12, 12), dim=4} is GRID LEAF:
+[0002]
+[0000]
+[0000]
+[0000]
+]
+]
+]
+------------------------------------------------------------
+END Dump of quadtree
+============================================================
+get(0, 0): expected 1, returned 1
+get(15, 15): expected 2,  returned 2
+get(1, 1): expected 0, returned 0
+get(8, 7): expected 0, returned 0
+get(4, 0): expected 0, returned 0

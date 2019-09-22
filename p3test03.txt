@@ -1,0 +1,259 @@
+Starting configuration--default board:
+============================================================
+START Dump of quadtree: true bounds = {botLeft=(0, 0), dim=256}
+------------------------------------------------------------
+[QTQuad bounds={botLeft=(0, 0), dim=256} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+------------------------------------------------------------
+END Dump of quadtree
+============================================================
+Modified configuration--default board:
+============================================================
+START Dump of quadtree: true bounds = {botLeft=(0, 0), dim=256}
+------------------------------------------------------------
+[QTQuad bounds={botLeft=(0, 0), dim=256} is INTERNAL:
+Bottom-Left child:
+[QTQuad bounds={botLeft=(0, 0), dim=128} is INTERNAL:
+Bottom-Left child:
+[QTQuad bounds={botLeft=(0, 0), dim=64} is INTERNAL:
+Bottom-Left child:
+[QTQuad bounds={botLeft=(0, 0), dim=32} is INTERNAL:
+Bottom-Left child:
+[QTQuad bounds={botLeft=(0, 0), dim=16} is INTERNAL:
+Bottom-Left child:
+[QTQuad bounds={botLeft=(0, 0), dim=8} is INTERNAL:
+Bottom-Left child:
+[QTQuad bounds={botLeft=(0, 0), dim=4} is GRID LEAF:
+[0000]
+[0000]
+[0000]
+[1000]
+]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+Bottom-Right child:
+[QTQuad bounds={botLeft=(128, 0), dim=128} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[QTQuad bounds={botLeft=(192, 0), dim=64} is INTERNAL:
+Bottom-Left child:
+[QTQuad bounds={botLeft=(192, 0), dim=32} is INTERNAL:
+Bottom-Left child:
+[QTQuad bounds={botLeft=(192, 0), dim=16} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[QTQuad bounds={botLeft=(200, 8), dim=8} is INTERNAL:
+Bottom-Left child:
+[QTQuad bounds={botLeft=(200, 8), dim=4} is GRID LEAF:
+[0000]
+[2000]
+[0000]
+[0000]
+]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+Top-Left child:
+[QTQuad bounds={botLeft=(0, 128), dim=128} is INTERNAL:
+Bottom-Left child:
+[QTQuad bounds={botLeft=(0, 128), dim=64} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[QTQuad bounds={botLeft=(32, 128), dim=32} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[QTQuad bounds={botLeft=(32, 144), dim=16} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[QTQuad bounds={botLeft=(40, 144), dim=8} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[QTQuad bounds={botLeft=(44, 144), dim=4} is GRID LEAF:
+[0003]
+[0000]
+[0000]
+[0000]
+]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+Top-Right child:
+[NULL]
+]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+Top-Right child:
+[QTQuad bounds={botLeft=(128, 128), dim=128} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[QTQuad bounds={botLeft=(192, 192), dim=64} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[QTQuad bounds={botLeft=(224, 224), dim=32} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[QTQuad bounds={botLeft=(240, 240), dim=16} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[QTQuad bounds={botLeft=(248, 248), dim=8} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[QTQuad bounds={botLeft=(252, 252), dim=4} is GRID LEAF:
+[0000]
+[0460]
+[0050]
+[0000]
+]
+]
+]
+]
+]
+]
+]
+------------------------------------------------------------
+END Dump of quadtree
+============================================================
+Test of iteration over non-zero points in basicBd:
+(0, 0) = 1 OK
+(200, 10) = 2 OK
+(47, 147) = 3 OK
+(253, 254) = 4 OK
+(254, 253) = 5 OK
+(254, 254) = 6 OK
+After clearAll():
+============================================================
+START Dump of quadtree: true bounds = {botLeft=(0, 0), dim=256}
+------------------------------------------------------------
+[QTQuad bounds={botLeft=(0, 0), dim=256} is INTERNAL:
+Bottom-Left child:
+[NULL]
+Bottom-Right child:
+[NULL]
+Top-Left child:
+[NULL]
+Top-Right child:
+[NULL]
+]
+------------------------------------------------------------
+END Dump of quadtree
+============================================================
+>>>END OF PROGRAM<<<
