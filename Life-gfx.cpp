@@ -1,5 +1,5 @@
 /******************************************************************************
- * Program to implement Game of Life optimized for Proj3's QuadTree
+ * Program to implement Game of Life optimized for QuadTree
  * This version implements a toroidal game board with wraparound at the
  * north/south and east/west edges (thus all the modulo division)
  *****************************************************************************/
